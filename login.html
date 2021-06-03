@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل في موقع مطبخ ياسمينا</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        #text{
+            font-size: 30px;
+            color: rgb(224, 99, 53);
+            margin-top: 60px;
+            margin-bottom: 60px;
+            margin-right: 40px;
+        }
+        form{
+            margin-right: 80px;
+            padding: 20px;
+        }
+        label{
+            font-size: large;
+        }
+        button{
+            background: rgb(82, 233, 82);
+            font-size: larger;
+            width: 80px;
+            height: 30px;
+            border: 0px;
+        }
+        
+    </style>
+</head>
+<body dir="rtl">
+    <div id="text">للتسجيل في موقعنا املاء الحقول التالية ثم الضغط على ارسال </div>
+    <form>
+        <table>
+        <tr>
+            <td>
+               <label> الاسم الكامل: <span style="color: red;">*</span></label>
+                <input type="text" placeholder="الاسم الكامل" name="Name" required autofocus>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>البريد الالكتروني: <span style="color: red;">*</span></label>
+                <input type="email" name="email" required placeholder="البريد الالكتروني" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>تاريخ الميلاد: <samp style="color: red;">*</samp></label>
+                <input type="date" name="تاريخ الميلاد" required value="1995-11-14">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="الجنس" required>
+                    <option value="">الجنس<span style="color: red;">*</span></option>
+                    <option value="دكر">دكر</option>
+                    <option value="انثى">انثى</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">تسجيل</button>
+            </td>
+        </tr>
+
+        
+        </table>
+    </form>
+    
+    
+</body>
+</html>
